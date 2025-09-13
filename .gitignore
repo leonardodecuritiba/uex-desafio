@@ -1,0 +1,32 @@
+design-docs/
+AGENTS.md
+
+# Root ignores for monorepo
+.DS_Store
+node_modules/
+vendor/
+*.log
+.env
+.env.local
+.env.*.local
+.idea/
+.vscode/
+
+# Backend
+backend/vendor/
+backend/node_modules/
+backend/storage/
+backend/bootstrap/cache/
+backend/.env
+backend/.phpunit.cache/
+backend/phpunit.xml
+
+# Frontend
+frontend/node_modules/
+frontend/.eslintcache
+frontend/dist/
+frontend/.env
+
+# Docker
+docker/.cache/
+docker/db-data/
